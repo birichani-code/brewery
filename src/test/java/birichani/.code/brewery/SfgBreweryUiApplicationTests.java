@@ -15,7 +15,7 @@
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package guru.sfg.brewery;
+package birichani.sfg.brewery;
 
 
 import org.junit.jupiter.api.Test;

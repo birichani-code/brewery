@@ -15,16 +15,8 @@
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package guru.sfg.brewery.services;
+package birichani.sfg.brewery.services;
 
-import guru.sfg.brewery.domain.BeerOrder;
-import guru.sfg.brewery.domain.Customer;
-import guru.sfg.brewery.domain.OrderStatusEnum;
-import guru.sfg.brewery.repositories.BeerOrderRepository;
-import guru.sfg.brewery.repositories.CustomerRepository;
-import guru.sfg.brewery.web.mappers.BeerOrderMapper;
-import guru.sfg.brewery.web.model.BeerOrderDto;
-import guru.sfg.brewery.web.model.BeerOrderPagedList;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;
@@ -32,6 +24,15 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import birichani.sfg.brewery.domain.BeerOrder;
+import birichani.sfg.brewery.domain.Customer;
+import birichani.sfg.brewery.domain.OrderStatusEnum;
+import birichani.sfg.brewery.repositories.BeerOrderRepository;
+import birichani.sfg.brewery.repositories.CustomerRepository;
+import birichani.sfg.brewery.web.mappers.BeerOrderMapper;
+import birichani.sfg.brewery.web.model.BeerOrderDto;
+import birichani.sfg.brewery.web.model.BeerOrderPagedList;
 
 import java.util.Optional;
 import java.util.UUID;

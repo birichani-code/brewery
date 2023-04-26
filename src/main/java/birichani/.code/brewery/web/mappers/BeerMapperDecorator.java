@@ -15,13 +15,14 @@
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package guru.sfg.brewery.web.mappers;
+package birichani.sfg.brewery.web.mappers;
 
-import guru.sfg.brewery.domain.Beer;
-import guru.sfg.brewery.domain.BeerInventory;
-import guru.sfg.brewery.web.model.BeerDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+
+import birichani.sfg.brewery.domain.Beer;
+import birichani.sfg.brewery.domain.BeerInventory;
+import birichani.sfg.brewery.web.model.BeerDto;
 
 public abstract class BeerMapperDecorator implements BeerMapper{
 

@@ -14,15 +14,16 @@
  *     You should have received a copy of the GNU General Public License
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-package guru.sfg.brewery.domain;
+package birichani.sfg.brewery.domain;
 
-import guru.sfg.brewery.web.model.BeerStyleEnum;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.hibernate.annotations.Fetch;
 import org.hibernate.annotations.FetchMode;
+
+import birichani.sfg.brewery.web.model.BeerStyleEnum;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;

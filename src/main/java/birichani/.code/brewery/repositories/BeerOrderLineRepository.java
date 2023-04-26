@@ -15,10 +15,11 @@
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package guru.sfg.brewery.repositories;
+package birichani.sfg.brewery.repositories;
 
-import guru.sfg.brewery.domain.BeerOrderLine;
 import org.springframework.data.repository.PagingAndSortingRepository;
+
+import birichani.sfg.brewery.domain.BeerOrderLine;
 
 import java.util.UUID;
 

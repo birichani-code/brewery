@@ -14,14 +14,15 @@
  *     You should have received a copy of the GNU General Public License
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-package guru.sfg.brewery.bootstrap;
+package birichani.sfg.brewery.bootstrap;
 
-import guru.sfg.brewery.domain.*;
-import guru.sfg.brewery.repositories.*;
-import guru.sfg.brewery.web.model.BeerStyleEnum;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
+
+import birichani.sfg.brewery.domain.*;
+import birichani.sfg.brewery.repositories.*;
+import birichani.sfg.brewery.web.model.BeerStyleEnum;
 
 import java.util.Set;
 import java.util.UUID;

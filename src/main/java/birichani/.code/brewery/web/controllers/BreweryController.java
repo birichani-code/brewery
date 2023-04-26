@@ -15,16 +15,17 @@
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package guru.sfg.brewery.web.controllers;
+package birichani.sfg.brewery.web.controllers;
 
-import guru.sfg.brewery.domain.Brewery;
-import guru.sfg.brewery.services.BreweryService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import birichani.sfg.brewery.domain.Brewery;
+import birichani.sfg.brewery.services.BreweryService;
 
 import java.util.List;
 

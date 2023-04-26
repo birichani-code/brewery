@@ -15,7 +15,7 @@
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package guru.sfg.brewery.domain;
+package birichani.sfg.brewery.domain;
 
 public enum  OrderStatusEnum {
     NEW, READY, PICKED_UP

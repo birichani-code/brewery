@@ -17,8 +17,6 @@
 
 package guru.sfg.brewery.web.controllers;
 
-import guru.sfg.brewery.domain.Beer;
-import guru.sfg.brewery.repositories.BeerRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -32,6 +30,10 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+
+import birichani.sfg.brewery.domain.Beer;
+import birichani.sfg.brewery.repositories.BeerRepository;
+import birichani.sfg.brewery.web.controllers.BeerController;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -15,12 +15,13 @@
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package guru.sfg.brewery.services;
+package birichani.sfg.brewery.services;
 
 
-import guru.sfg.brewery.web.model.BeerOrderDto;
-import guru.sfg.brewery.web.model.BeerOrderPagedList;
 import org.springframework.data.domain.Pageable;
+
+import birichani.sfg.brewery.web.model.BeerOrderDto;
+import birichani.sfg.brewery.web.model.BeerOrderPagedList;
 
 import java.util.UUID;
 

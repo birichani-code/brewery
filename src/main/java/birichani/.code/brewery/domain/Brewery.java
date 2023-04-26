@@ -14,7 +14,7 @@
  *     You should have received a copy of the GNU General Public License
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-package guru.sfg.brewery.domain;
+package birichani.sfg.brewery.domain;
 
 import lombok.Builder;
 import lombok.Getter;

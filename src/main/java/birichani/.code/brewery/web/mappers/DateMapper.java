@@ -15,7 +15,7 @@
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package guru.sfg.brewery.web.mappers;
+package birichani.sfg.brewery.web.mappers;
 
 import org.springframework.stereotype.Component;
 

@@ -15,12 +15,9 @@
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package guru.sfg.brewery.web.controllers;
+package birichani.sfg.brewery.web.controllers;
 
 
-import guru.sfg.brewery.domain.Beer;
-import guru.sfg.brewery.repositories.BeerInventoryRepository;
-import guru.sfg.brewery.repositories.BeerRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -33,6 +30,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
+
+import birichani.sfg.brewery.domain.Beer;
+import birichani.sfg.brewery.repositories.BeerInventoryRepository;
+import birichani.sfg.brewery.repositories.BeerRepository;
 
 import javax.validation.Valid;
 import java.util.List;

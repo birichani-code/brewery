@@ -17,8 +17,6 @@
 
 package guru.sfg.brewery.web.controllers;
 
-import guru.sfg.brewery.domain.Customer;
-import guru.sfg.brewery.repositories.CustomerRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
@@ -29,6 +27,10 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+
+import birichani.sfg.brewery.domain.Customer;
+import birichani.sfg.brewery.repositories.CustomerRepository;
+import birichani.sfg.brewery.web.controllers.CustomerController;
 
 import java.util.ArrayList;
 import java.util.List;

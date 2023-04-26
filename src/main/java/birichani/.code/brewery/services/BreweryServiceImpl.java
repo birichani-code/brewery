@@ -14,12 +14,13 @@
  *     You should have received a copy of the GNU General Public License
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-package guru.sfg.brewery.services;
+package birichani.sfg.brewery.services;
 
-import guru.sfg.brewery.domain.Brewery;
-import guru.sfg.brewery.repositories.BreweryRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+
+import birichani.sfg.brewery.domain.Brewery;
+import birichani.sfg.brewery.repositories.BreweryRepository;
 
 import java.util.List;
 

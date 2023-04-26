@@ -15,12 +15,13 @@
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package guru.sfg.brewery.web.mappers;
+package birichani.sfg.brewery.web.mappers;
 
-import guru.sfg.brewery.domain.BeerOrderLine;
-import guru.sfg.brewery.web.model.BeerOrderLineDto;
 import org.mapstruct.DecoratedWith;
 import org.mapstruct.Mapper;
+
+import birichani.sfg.brewery.domain.BeerOrderLine;
+import birichani.sfg.brewery.web.model.BeerOrderLineDto;
 
 @Mapper(uses = {DateMapper.class})
 @DecoratedWith(BeerOrderLineMapperDecorator.class)

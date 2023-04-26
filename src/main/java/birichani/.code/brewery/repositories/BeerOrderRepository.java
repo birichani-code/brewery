@@ -14,15 +14,16 @@
  *     You should have received a copy of the GNU General Public License
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-package guru.sfg.brewery.repositories;
+package birichani.sfg.brewery.repositories;
 
-import guru.sfg.brewery.domain.BeerOrder;
-import guru.sfg.brewery.domain.Customer;
-import guru.sfg.brewery.domain.OrderStatusEnum;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Lock;
+
+import birichani.sfg.brewery.domain.BeerOrder;
+import birichani.sfg.brewery.domain.Customer;
+import birichani.sfg.brewery.domain.OrderStatusEnum;
 
 import javax.persistence.LockModeType;
 import java.util.List;

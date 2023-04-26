@@ -14,13 +14,14 @@
  *     You should have received a copy of the GNU General Public License
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-package guru.sfg.brewery.repositories;
+package birichani.sfg.brewery.repositories;
 
-import guru.sfg.brewery.domain.Beer;
-import guru.sfg.brewery.web.model.BeerStyleEnum;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import birichani.sfg.brewery.domain.Beer;
+import birichani.sfg.brewery.web.model.BeerStyleEnum;
 
 import java.util.UUID;
 

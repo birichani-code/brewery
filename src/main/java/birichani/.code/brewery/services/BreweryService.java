@@ -14,11 +14,11 @@
  *     You should have received a copy of the GNU General Public License
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-package guru.sfg.brewery.services;
-
-import guru.sfg.brewery.domain.Brewery;
+package birichani.sfg.brewery.services;
 
 import java.util.List;
+
+import birichani.sfg.brewery.domain.Brewery;
 
 public interface BreweryService {
     List<Brewery> getAllBreweries();

@@ -15,7 +15,7 @@
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package guru.sfg.brewery.web.model;
+package birichani.sfg.brewery.web.model;
 
 import lombok.Builder;
 import lombok.Data;

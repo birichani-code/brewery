@@ -15,14 +15,8 @@
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package guru.sfg.brewery.services;
+package birichani.sfg.brewery.services;
 
-import guru.sfg.brewery.domain.Beer;
-import guru.sfg.brewery.repositories.BeerRepository;
-import guru.sfg.brewery.web.mappers.BeerMapper;
-import guru.sfg.brewery.web.model.BeerDto;
-import guru.sfg.brewery.web.model.BeerPagedList;
-import guru.sfg.brewery.web.model.BeerStyleEnum;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;
@@ -31,6 +25,13 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import org.springframework.web.server.ResponseStatusException;
+
+import birichani.sfg.brewery.domain.Beer;
+import birichani.sfg.brewery.repositories.BeerRepository;
+import birichani.sfg.brewery.web.mappers.BeerMapper;
+import birichani.sfg.brewery.web.model.BeerDto;
+import birichani.sfg.brewery.web.model.BeerPagedList;
+import birichani.sfg.brewery.web.model.BeerStyleEnum;
 
 import java.util.Optional;
 import java.util.UUID;
